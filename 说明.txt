@@ -1,0 +1,7 @@
+1. Dataset文件是原始数据，有以下四类数据:Mild Demented/Moderate Demented/Non Demented/Very Mild Demented
+下载链接：https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset?resource=download
+
+2.文件（1-DataPreprocessing.ipynb）用于数据预处理，并将预处理后的数据保存到output，predata这两个文件夹。其中predata文件夹存放 augmentation处理后的数据。
+
+
+3.文件（2-AD-Classification.ipynb）为模型建立，训练，保存的文件，且训练后的模型将保存于modelPerformance文件夹。
